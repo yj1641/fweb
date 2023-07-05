@@ -14,7 +14,7 @@
     This is a placeholder for base href that will be replaced by the value of
     the `--base-href` argument provided to `flutter build`.
   -->
-  <base href="$FLUTTER_BASE_HREF">
+  <base href="/fweb/">
 
   <meta charset="UTF-8">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
@@ -34,12 +34,16 @@
 
   <script>
     // The value below is injected by flutter build, do not touch.
-    var serviceWorkerVersion = null;
+    var serviceWorkerVersion = "3218946532";
   </script>
   <!-- This script adds the flutter initialization JS code -->
+  <script src="script.js" defer></script>
   <script src="flutter.js" defer></script>
 </head>
-<body>
+<body style="background-color: rgb(36, 57, 116);">
+  <DIV style ="text-align:center";>
+    <img src="favicon.png" style="margin-left: 20px; margin-bottom: 10px; width:100px; height:100px;"/>
+  </DIV>
   <script>
     window.addEventListener('load', function(ev) {
       // Download main.dart.js
